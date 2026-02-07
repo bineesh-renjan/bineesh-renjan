@@ -1,7 +1,7 @@
 ## Hi there 👋
 # inventory-risk-operations-analytics
 
-**Role:** Business / Operations Analyst  
+**Role:** Business / Operations Analyst / Project Management  
 **Tech:** Power BI • SQL • Excel • Python (optional)  
 **Scope:** Inventory risk, operational KPIs, governance-ready analytics (global context)
 
