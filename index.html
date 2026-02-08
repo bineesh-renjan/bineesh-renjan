@@ -1,145 +1,176 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bineesh Renjan | Business Analyst Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bineesh Renjan | Business Analyst Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
 </head>
 
-<body class="light bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+<body class="bg-gray-50 text-gray-900">
 
-<!-- HEADER -->
-<header class="fixed w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm">
-    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#" class="text-2xl font-bold">Bineesh Renjan</a>
-        <div class="hidden md:flex space-x-6">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-        </div>
-    </div>
+<!-- ================= NAV ================= -->
+<header class="fixed w-full bg-white shadow z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <span class="text-xl font-bold">Bineesh Renjan</span>
+    <nav class="space-x-6 hidden md:block">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
 </header>
 
-<!-- HERO -->
-<section id="home" class="min-h-screen flex items-center pt-24">
-    <div class="container mx-auto px-6">
-        <h1 class="text-5xl font-bold mb-4">Hi, I'm Bineesh Renjan</h1>
-        <h2 class="text-2xl font-semibold mb-6">
-            Business Analyst | Process Analyst | Data & Operations
-        </h2>
-        <p class="max-w-3xl text-lg text-gray-600 dark:text-gray-300">
-            Results-oriented Analyst with over 3 years of experience driving operational excellence and data-driven
-            decision-making across logistics and retail environments. Proven track record in Business Process
-            Management (BPM) and process optimisation, delivering a 12% efficiency gain and 35% defect reduction
-            at Amazon.
-        </p>
+<!-- ================= HERO ================= -->
+<section id="home" class="min-h-screen flex items-center pt-32">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- TEXT -->
+    <div>
+      <h1 class="text-5xl font-bold mb-4">Hi, I’m Bineesh Renjan</h1>
+      <h2 class="text-2xl font-semibold mb-6">
+        Business Analyst | Process Analyst | Data & Operations
+      </h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        Results-oriented Analyst with over 3 years of experience driving operational excellence
+        and data-driven decision-making across logistics and retail environments. Proven track
+        record in Business Process Management (BPM) and process optimisation, delivering a 12%
+        efficiency gain and 35% defect reduction at Amazon.
+      </p>
     </div>
+
+    <!-- PHOTO (UNCHANGED IMAGE) -->
+    <div class="flex justify-centre">
+      <img
+        src="assets/profile.jpg"
+        alt="Bineesh Renjan"
+        class="w-72 h-72 rounded-full object-cover object-top shadow-lg border-4 border-gray-300"
+      />
+    </div>
+
+  </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about" class="py-20 bg-gray-100 dark:bg-gray-800">
-    <div class="container mx-auto px-6 max-w-5xl">
-        <h2 class="text-3xl font-bold mb-8">About Me</h2>
-        <p class="mb-4">
-            Experienced in BPMN 2.0 modelling, UAT, KPI reporting, and project coordination within Agile environments
-            using Jira and Confluence. Adept at leveraging Power BI, Tableau, and SQL to generate actionable insights,
-            reduce inventory risk by 40%, and ensure GDPR compliance across global operations.
-        </p>
-        <p class="mb-4">
-            <strong>Location:</strong> Wales, United Kingdom<br>
-            <strong>Mobility:</strong> Immediate Start | Work Permit Sponsorship required | Willing to Relocate Upon Offer
-        </p>
-    </div>
+<!-- ================= ABOUT ================= -->
+<section id="about" class="py-20 bg-gray-100">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8">About Me</h2>
+
+    <p class="mb-6 leading-relaxed">
+      Experienced in BPMN 2.0 modelling, UAT, KPI reporting, and project coordination within
+      Agile environments using Jira and Confluence. Adept at leveraging Power BI, Tableau,
+      and SQL to generate actionable insights, reduce inventory risk by 40%, and ensure GDPR
+      compliance across global operations.
+    </p>
+
+    <p class="leading-relaxed">
+      <strong>Location:</strong> Wales, United Kingdom<br/>
+      <strong>Mobility:</strong> Immediate Start | Work Permit Sponsorship required |
+      Willing to Relocate Upon Offer
+    </p>
+  </div>
 </section>
 
-<!-- EXPERIENCE -->
+<!-- ================= EXPERIENCE ================= -->
 <section id="experience" class="py-20">
-    <div class="container mx-auto px-6 max-w-6xl">
-        <h2 class="text-3xl font-bold mb-12">Professional Experience</h2>
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-12">Professional Experience</h2>
 
-        <div class="mb-10">
-            <h3 class="text-xl font-semibold">
-                Process Lead, Amazon Fulfillment Center — Bristol, UK
-            </h3>
-            <p class="italic mb-2">Apr 2025 – Current</p>
-            <ul class="list-disc pl-6 space-y-2">
-                <li>Coordinated daily operational plans for 10–20 associates; optimised labour allocation via live volume, improving UPH by 8–12%.</li>
-                <li>Monitored project KPIs and operational risks, triggering Andon alerts and resolving blockers within 15 minutes.</li>
-                <li>Applied Root Cause Analysis (5 Whys) to eliminate recurring defects, reducing repeat issues by 35% within two weeks.</li>
-                <li>Built lightweight UPH/DPMO trackers in Excel and Power BI, enabling data-led hourly huddles and reducing missed targets by 20%.</li>
-            </ul>
-        </div>
-
-        <div class="mb-10">
-            <h3 class="text-xl font-semibold">
-                Business Analyst Intern, Victoria Solutions — London, UK
-            </h3>
-            <p class="italic mb-2">Feb 2025 – Mar 2025</p>
-            <ul class="list-disc pl-6 space-y-2">
-                <li>Automated weekly KPI reporting (40% faster) with Tableau on SQL/Excel; programmed scheduled refreshes plus automated leadership alerts.</li>
-                <li>Mapped to-be processes using BPMN 2.0, reducing handoffs by 20% while strengthening SLA adherence and change control.</li>
-            </ul>
-        </div>
-
-        <div class="mb-10">
-            <h3 class="text-xl font-semibold">
-                Corporate Relations Executive, Seventh Sense Solutions — Karnataka, India
-            </h3>
-            <p class="italic mb-2">Apr 2022 – Sep 2022</p>
-            <ul class="list-disc pl-6 space-y-2">
-                <li>Facilitated 10+ stakeholder workshops to capture requirements and mitigate operational risks for projects valued at over $50k.</li>
-                <li>Tracked 50+ action items, driving a 10% improvement in departmental process efficiency.</li>
-            </ul>
-        </div>
-
-        <div>
-            <h3 class="text-xl font-semibold">
-                Business Operations Analyst, Pradhan Mantri Jan Aushadhi Kendra — Kerala, India
-            </h3>
-            <p class="italic mb-2">Dec 2020 – Mar 2022</p>
-            <ul class="list-disc pl-6 space-y-2">
-                <li>Introduced Power BI KPI suites to flag inventory risk; for 500+ SKU lines, successfully reducing stockouts by 40%.</li>
-                <li>Coordinated User Acceptance Testing (UAT) for POS enhancements across 10+ locations.</li>
-            </ul>
-        </div>
+    <!-- AMAZON -->
+    <div class="mb-10">
+      <h3 class="text-xl font-semibold">
+        Process Lead, Amazon Fulfillment Center — Bristol, UK
+      </h3>
+      <p class="italic mb-3">Apr 2025 – Current</p>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Coordinated daily operational plans for 10–20 associates; optimised labour allocation via live volume, improving UPH by 8–12%.</li>
+        <li>Monitored project KPIs and operational risks, triggering Andon alerts and resolving blockers within 15 minutes.</li>
+        <li>Applied Root Cause Analysis (5 Whys) to eliminate recurring defects, reducing repeat issues by 35% within two weeks.</li>
+        <li>Built lightweight UPH/DPMO trackers in Excel and Power BI, enabling data-led hourly huddles and reducing missed targets by 20%.</li>
+      </ul>
     </div>
+
+    <!-- INTERN -->
+    <div class="mb-10">
+      <h3 class="text-xl font-semibold">
+        Business Analyst Intern, Victoria Solutions — London, UK
+      </h3>
+      <p class="italic mb-3">Feb 2025 – Mar 2025</p>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Automated weekly KPI reporting (40% faster) with Tableau on SQL/Excel; programmed scheduled refreshes plus automated leadership alerts.</li>
+        <li>Mapped to-be processes using BPMN 2.0, reducing handoffs by 20% while strengthening SLA adherence and change control.</li>
+      </ul>
+    </div>
+
+    <!-- CORPORATE -->
+    <div class="mb-10">
+      <h3 class="text-xl font-semibold">
+        Corporate Relations Executive, Seventh Sense Solutions — Karnataka, India
+      </h3>
+      <p class="italic mb-3">Apr 2022 – Sep 2022</p>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Facilitated 10+ stakeholder workshops to capture requirements and mitigate operational risks for projects valued at over $50k.</li>
+        <li>Tracked 50+ action items, driving a 10% improvement in departmental process efficiency.</li>
+      </ul>
+    </div>
+
+    <!-- OPS -->
+    <div>
+      <h3 class="text-xl font-semibold">
+        Business Operations Analyst, Pradhan Mantri Jan Aushadhi Kendra — Kerala, India
+      </h3>
+      <p class="italic mb-3">Dec 2020 – Mar 2022</p>
+      <ul class="list-disc pl-6 space-y-2">
+        <li>Introduced Power BI KPI suites to flag inventory risk; reducing stockouts by 40% for 500+ SKU lines.</li>
+        <li>Coordinated User Acceptance Testing (UAT) for POS enhancements across 10+ locations.</li>
+      </ul>
+    </div>
+
+  </div>
 </section>
 
-<!-- SKILLS -->
-<section id="skills" class="py-20 bg-gray-100 dark:bg-gray-800">
-    <div class="container mx-auto px-6 max-w-5xl">
-        <h2 class="text-3xl font-bold mb-10">Core Skills</h2>
-        <ul class="grid md:grid-cols-2 gap-4 list-disc pl-6">
-            <li>Advanced Excel (Pivot Tables, XLOOKUP)</li>
-            <li>Power BI, Tableau, SQL (Basic)</li>
-            <li>Requirements Gathering, User Stories, Gherkin</li>
-            <li>BPMN 2.0 Process Mapping, Gap Analysis</li>
-            <li>Root Cause Analysis (5 Whys), SOP Documentation</li>
-            <li>Agile/Scrum, Jira, Confluence</li>
-            <li>Operational Risk, UK GDPR, Audit Readiness</li>
-            <li>Project Planning, Scope & Schedule Control</li>
-        </ul>
-    </div>
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="py-20 bg-gray-100">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-10">Core Skills</h2>
+    <ul class="grid md:grid-cols-2 gap-4 list-disc pl-6">
+      <li>Advanced Excel (Pivot Tables, XLOOKUP)</li>
+      <li>Power BI, Tableau, SQL (Basic)</li>
+      <li>Requirements Gathering, User Stories, Gherkin</li>
+      <li>BPMN 2.0 Process Mapping, Gap Analysis</li>
+      <li>Root Cause Analysis (5 Whys), SOP Documentation</li>
+      <li>Agile/Scrum, Jira, Confluence</li>
+      <li>Operational Risk, UK GDPR, Audit Readiness</li>
+      <li>Project Planning, Scope & Schedule Control</li>
+    </ul>
+  </div>
 </section>
 
-<!-- CONTACT -->
+<!-- ================= CONTACT ================= -->
 <section id="contact" class="py-20">
-    <div class="container mx-auto px-6 max-w-4xl">
-        <h2 class="text-3xl font-bold mb-8">Contact</h2>
-        <p><strong>Email:</strong> tr.bnrenjan@gmail.com</p>
-        <p><strong>Phone:</strong> +44 7767 567345</p>
-        <p><strong>LinkedIn:</strong> <a class="text-blue-600" href="https://linkedin.com/in/bineeshrenjan">linkedin.com/in/bineeshrenjan</a></p>
-        <p><strong>Location:</strong> Wales, United Kingdom</p>
-    </div>
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8">Contact</h2>
+    <p><strong>Email:</strong> tr.bnrenjan@gmail.com</p>
+    <p><strong>Phone:</strong> +44 7767 567345</p>
+    <p>
+      <strong>LinkedIn:</strong>
+      <a href="https://linkedin.com/in/bineeshrenjan" class="text-blue-600">
+        linkedin.com/in/bineeshrenjan
+      </a>
+    </p>
+    <p><strong>Location:</strong> Wales, United Kingdom</p>
+  </div>
 </section>
 
-<footer class="py-8 text-center bg-gray-100 dark:bg-gray-800">
-    © 2026 Bineesh Renjan — Portfolio
+<footer class="py-8 text-center bg-gray-200">
+  © 2026 Bineesh Renjan — Portfolio
 </footer>
 
 </body>
 </html>
+
