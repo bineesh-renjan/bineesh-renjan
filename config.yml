@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bineesh Renjan | Business Analyst</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Lottie -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9fafb;
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h1, h2, h3 { font-weight: 700; }
+    h2 { margin-bottom: 30px; text-align: center; }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+      color: white;
+      padding: 100px 20px;
+    }
+
+    .hero h1 { font-size: 3rem; }
+    .hero h2 {
+      font-weight: 400;
+      margin-top: 15px;
+      font-size: 1.4rem;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 25px auto;
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    .hero-buttons {
+      margin-top: 35px;
+      display: flex;
+      gap: 18px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 14px 32px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.3s ease;
+    }
+
+    .btn:hover { transform: translateY(-3px); }
+
+    .btn-primary {
+      background: white;
+      color: #1e40af;
+    }
+
+    .btn-secondary {
+      border: 2px solid white;
+      color: white;
+    }
+
+    /* SKILLS */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 28px;
+      margin-top: 40px;
+    }
+
+    .skill-card {
+      background: white;
+      padding: 28px;
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 40px rgba(0,0,0,0.15);
+    }
+
+    .skill-card h4 { margin-top: 14px; }
+    .skill-card p { font-size: 0.9rem; color: #555; }
+
+    /* TIMELINE */
+    .timeline {
+      display: grid;
+      gap: 28px;
+      margin-top: 40px;
+    }
+
+    .timeline-item {
+      background: white;
+      padding: 28px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+    }
+
+    .timeline-item h3 { color: #1e40af; }
+    .timeline-item span {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    /* CONTACT */
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-top: 12px;
+      color: #1e40af;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #111827;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Bineesh Renjan</h1>
+    <h2>Business Analyst | Process Optimization | Data Analytics</h2>
+    <p>
+      I transform operational challenges into measurable results —
+      <strong>35% defect reduction</strong>, <strong>40% stock-out improvement</strong>,
+      and <strong>12% efficiency gains</strong> across global teams.
+    </p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn btn-primary">Contact Me</a>
+      <a href="assets/Bineesh_Renjan_CV.pdf" target="_blank" class="btn btn-secondary">
+        Download CV
+      </a>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h2>Skills & Certifications</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_jcikwtux.json"
+          background="transparent" speed="1" style="width:80px;height:80px;" loop autoplay></lottie-player>
+        <h4>Microsoft Project Management</h4>
+        <p>Certified • Delivery & Process Excellence</p>
+      </div>
+
+      <div class="skill-card">
+        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_0yfsb3a1.json"
+          background="transparent" speed="1" style="width:80px;height:80px;" loop autoplay></lottie-player>
+        <h4>Google Data Analytics</h4>
+        <p>Certified • SQL & Insights</p>
+      </div>
+
+      <div class="skill-card">
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_2ixzdfvy.json"
+          background="transparent" speed="1" style="width:80px;height:80px;" loop autoplay></lottie-player>
+        <h4>Power BI</h4>
+        <p>Dashboards • KPIs • Reporting</p>
+      </div>
+
+      <div class="skill-card">
+        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_qp1q7mct.json"
+          background="transparent" speed="1" style="width:80px;height:80px;" loop autoplay></lottie-player>
+        <h4>SQL & Data Analysis</h4>
+        <p>Querying • Metrics • Insights</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section>
+    <h2>Professional Experience</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <h3>Process Lead – Amazon</h3>
+        <span>Apr 2025 – Present</span>
+        <p>
+          Led process optimization initiatives, achieving a 12% efficiency improvement and
+          reducing operational defects by 35% using data-driven analysis.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>Business Analyst</h3>
+        <span>Previous Experience</span>
+        <p>
+          Built dashboards, analyzed KPIs, and supported cross-functional teams with insights
+          that improved inventory availability and stakeholder decision-making.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <h2>Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>MSc Business Analytics</h3>
+        <span>Cardiff Metropolitan University</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: bineesh.renjan@email.com</p>
+    <a href="https://www.linkedin.com" target="_blank">LinkedIn Profile</a>
+  </section>
+
+  <footer>
+    © 2026 Bineesh Renjan | Business Analyst Portfolio
+  </footer>
+
+</body>
+</html>
