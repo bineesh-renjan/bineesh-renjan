@@ -49,8 +49,8 @@ I am currently based in the United Kingdom and open to global opportunities with
 - **BCom Finance & Actuarial Science** – Jain University, India  
 
 **Certifications**
+- **Google Data Analytics Professional Certificate** – [View Credential](https://www.coursera.org/account/accomplishments/specialization/certificate/J5UBR5ZTB53S)
 - **Microsoft Project Management Fundamentals** (Microsoft)
-- **Google Professional Data Analytics**
 - **CFI (Corporate Finance Institute) Certifications:**
     - Excel Fundamentals – [View Credential](https://www.credential.net/6621f2f5-c31f-49e8-a186-89bdfc141169)
     - Capital Markets – [View Credential](https://www.credential.net/b7c42587-5211-4109-9194-a353c1242d34)
